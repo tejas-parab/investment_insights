@@ -2,9 +2,6 @@
 
 A beautiful, responsive Flutter web/mobile dashboard that visualizes stock portfolio performance using local JSON data — no backend required.
 
-**Live Demo**: https://tejas-brahmbhatt.github.io/investment_insights/#/  
-**Demo Video**: https://youtu.be/finview-lite-demo-tejas
-
 ## Features Implemented
 
 - Local `assets/portfolio.json` with multi-user support
