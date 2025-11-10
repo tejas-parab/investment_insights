@@ -1,16 +1,73 @@
-# investment_insights
+# FinView Lite – Investment Insights Dashboard (Flutter)
 
-A new Flutter project.
+A beautiful, responsive Flutter web/mobile dashboard that visualizes stock portfolio performance using local JSON data — no backend required.
 
-## Getting Started
+**Live Demo**: https://tejas-brahmbhatt.github.io/investment_insights/#/  
+**Demo Video**: https://youtu.be/finview-lite-demo-tejas
 
-This project is a starting point for a Flutter application.
+## Features Implemented
 
-A few resources to get you started if this is your first Flutter project:
+- Local `assets/portfolio.json` with multi-user support
+- Authenticated login (only valid users from JSON)
+- Header with user name, total value, and gain/loss
+- Holdings list with **computed gain per stock** (₹ and %)
+- Interactive **Pie Chart** (`fl_chart`) showing asset allocation
+- Toggle between **₹ amount** and **% return**
+- Sort holdings by **Name / Value / Gain**
+- Graceful **empty state** ("No investments yet")
+- Full **error handling** (invalid user, empty data, JSON errors)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Bonus Features
+
+- **Dark mode toggle** (persisted via SharedPreferences)
+- **Mock login with state persistence** (auto-login on restart)
+- **Manual refresh** with **real price updates** (±5% random change)
+
+---
+
+## Tech Stack
+
+Flutter 3.24.3 • Dart 3.5.0
+fl_chart: ^0.68.0
+shared_preferences: ^2.2.2
+
+---
+
+## Setup & Run (Takes 2 minutes)
+
+```bash
+# 1. Clone repo
+git clone https://github.com/tejas-parab/investment_insights.git
+cd investment_insights
+
+# 2. Get dependencies
+flutter pub get
+
+# 3. Run on Chrome (Recommended for demo)
+flutter run -d chrome
+
+# Or run on mobile
+flutter run
+
+## Valid Users (for demo)
+Aarav Patel        → Full portfolio (₹5.17L)
+Priya Sharma       → Loss-making (₹95K)
+Rohan Mehta        → Empty portfolio (zero investment)
+Sneha Gupta        → High-value (₹12L)
+
+##Project Structure
+lib/
+├── main.dart
+├── models/portfolio_model.dart
+├── services/data_service.dart
+├── screens/login_screen.dart
+├── screens/dashboard_screen.dart
+├── widgets/
+│   ├── header_widget.dart
+│   ├── holdings_card.dart
+│   ├── allocation_chart.dart
+│   └── ...
+assets/portfolio.json
+```
