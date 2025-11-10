@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "username": "Aarav Patel",
+      "portfolio_value": 517600,
+      "total_gain": 25600,
+      "holdings": [
+        {
+          "symbol": "TCS",
+          "name": "Tata Consultancy",
+          "units": 50,
+          "avg_cost": 3200,
+          "current_price": 3420
+        },
+        {
+          "symbol": "INFY",
+          "name": "Infosys Ltd",
+          "units": 100,
+          "avg_cost": 1420,
+          "current_price": 1525
+        },
+        {
+          "symbol": "RELIANCE",
+          "name": "Reliance Industries",
+          "units": 30,
+          "avg_cost": 2450,
+          "current_price": 2820
+        }
+      ]
+    },
+    {
+      "username": "Priya Sharma",
+      "portfolio_value": 95000,
+      "total_gain": -8500,
+      "holdings": [
+        {
+          "symbol": "WIPRO",
+          "name": "Wipro Limited",
+          "units": 250,
+          "avg_cost": 420,
+          "current_price": 386
+        },
+        {
+          "symbol": "HDFCBANK",
+          "name": "HDFC Bank",
+          "units": 40,
+          "avg_cost": 1520,
+          "current_price": 1410
+        }
+      ]
+    },
+    {
+      "username": "Rohan Mehta",
+      "portfolio_value": 0,
+      "total_gain": 0,
+      "holdings": []
+    },
+    {
+      "username": "Sneha Gupta",
+      "portfolio_value": 1200000,
+      "total_gain": 180000,
+      "holdings": [
+        {
+          "symbol": "ADANIENT",
+          "name": "Adani Enterprises",
+          "units": 80,
+          "avg_cost": 2800,
+          "current_price": 3200
+        },
+        {
+          "symbol": "TITAN",
+          "name": "Titan Company",
+          "units": 60,
+          "avg_cost": 3100,
+          "current_price": 3650
+        },
+        {
+          "symbol": "MARUTI",
+          "name": "Maruti Suzuki",
+          "units": 15,
+          "avg_cost": 9200,
+          "current_price": 10800
+        }
+      ]
+    }
+  ]
+}
