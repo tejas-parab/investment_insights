@@ -71,4 +71,4 @@ assets/portfolio.json
 
 ## Video
 
-https://github.com/tejas-parab/investment_insights/blob/5ab1f80b4c57509654d919821cff349006806acb/assets/recording1.mp4
+![Video](https://github.com/tejas-parab/investment_insights/blob/5ab1f80b4c57509654d919821cff349006806acb/assets/recording1.mp4)
