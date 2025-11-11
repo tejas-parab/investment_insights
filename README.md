@@ -68,3 +68,7 @@ assets/portfolio.json
 
 ![App Screenshot](/assets/screenshot1.jpg?raw=true "Optional Title")
 ![App Screenshot](/assets/screenshot2.jpg?raw=true "Optional Title")
+
+## Video
+
+https://github.com/tejas-parab/investment_insights/blob/5ab1f80b4c57509654d919821cff349006806acb/assets/recording1.mp4
