@@ -124,6 +124,5 @@ assets/portfolio.json
 
 ## Screenshots
 
-Here
 ![App Screenshot](/assets/screenshot1.jpg?raw=true "Optional Title")
 ![App Screenshot](/assets/screenshot2.jpg?raw=true "Optional Title")
